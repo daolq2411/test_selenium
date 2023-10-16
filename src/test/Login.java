@@ -22,7 +22,7 @@ public class Login extends Connector{
         	try {
         		driver.findElement(By.xpath("//*[@id=\"modal-brand-communication\"]/div/div/div[1]/button")).click();
         	} catch (Exception e) {
-        		System.out.println("not include video promotion");
+        		System.out.println("not include promotion video");
         	}
         	driver.findElement(By.xpath("/html[1]/body[1]/nav[1]/div[1]/ul[2]/li[1]/a[1]")).click();
         	driver.findElement(By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/input[1]")).sendKeys(User);
